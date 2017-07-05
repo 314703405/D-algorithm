@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>算法分析.xcscheme</key>
+		<key>D-algorithm.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1F4C975D1E782CE20081FB88</key>
+		<key>1F4748F31F0CDC3400C3FBF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

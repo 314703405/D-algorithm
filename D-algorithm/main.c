@@ -10,6 +10,12 @@
 #include "Add Two Numbers.h"
 int main(int argc, const char * argv[]) {
     
+    
+    return 0;
+}
+
+void testTwoNumbers()
+{
     struct ListNode *node1 = createList();
     
     printList(node1);
@@ -19,11 +25,7 @@ int main(int argc, const char * argv[]) {
     printList(node2);
     
     printList(addTwoNumbers(node1, node2));
-    
-    return 0;
 }
-
-
 
 
 

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:&#x7b97;&#x6cd5;&#x5206;&#x6790;.xcodeproj">
+      location = "self:D-algorithm.xcodeproj">
    </FileRef>
 </Workspace>
