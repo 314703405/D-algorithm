@@ -64,10 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				1F4749001F0CDC6D00C3FBF9 /* main.c */,
-				1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */,
-				1F4748FF1F0CDC6D00C3FBF9 /* Add Two Numbers.h */,
 				1F4749011F0CDC6D00C3FBF9 /* Two Sum.c */,
 				1F4749021F0CDC6D00C3FBF9 /* Two Sum.h */,
+				1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */,
+				1F4748FF1F0CDC6D00C3FBF9 /* Add Two Numbers.h */,
 			);
 			path = "D-algorithm";
 			sourceTree = "<group>";
@@ -263,6 +263,7 @@
 				1F4748FD1F0CDC3400C3FBF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

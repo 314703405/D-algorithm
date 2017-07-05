@@ -85,20 +85,28 @@ void printList(struct ListNode *listNode)
     printf("]\n");
 }
 
+/**
+ * 时间复杂度:O(n);
+ */
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2)
 {
+    // pHead 用来记录新建的列表头 p1 新建节点 p2 上一个节点信息
     struct ListNode *pHead,*p1,*p2;
     p2 = (struct ListNode *)malloc(sizeof(struct ListNode));;
     pHead = NULL;
+    
+    // sum/10 求得的商,如果该商不为0,就要再进行一次循环,创建一个新节点.
     int discuss = 0;
     
+    // l1和l2 可能长度不同,所以需要用||运算,有可能在俩个链表都为空,但是discuss还有值,需要新建节点
     while (l1 != NULL || l2 != NULL || discuss != 0)
     {
         p1 = (struct ListNode *)malloc(sizeof(struct ListNode));
         memset(p1, 0, sizeof(struct ListNode));
         p1->next = NULL;
         
-        int sum = 0,remainder;
+        // sum:和 remainder:余数
+        int sum ,remainder;
         sum = (l1 ? l1->val : 0) + (l2 ? l2->val : 0) + discuss;
         remainder = sum % 10;
         
