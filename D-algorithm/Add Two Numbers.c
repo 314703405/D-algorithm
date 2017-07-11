@@ -68,6 +68,7 @@ struct ListNode *createList()
         node1->next = NULL;
     }
     printf("列表创建成功\n");
+    
     return headNode;
 }
 
@@ -129,4 +130,17 @@ struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2)
     }
     
     return pHead;
+}
+
+void testTwoNumbers()
+{
+    struct ListNode *node1 = createList();
+    
+    printList(node1);
+    
+    struct ListNode *node2 = createList();
+    
+    printList(node2);
+    
+    printList(addTwoNumbers(node1, node2));
 }

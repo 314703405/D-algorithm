@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F308B5C1F0E4757000094DE /* 3. Longest Substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F308B5A1F0E4757000094DE /* 3. Longest Substring.c */; };
 		1F4749031F0CDC6D00C3FBF9 /* Add Two Numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */; };
 		1F4749041F0CDC6D00C3FBF9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749001F0CDC6D00C3FBF9 /* main.c */; };
 		1F4749051F0CDC6D00C3FBF9 /* Two Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749011F0CDC6D00C3FBF9 /* Two Sum.c */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F308B5A1F0E4757000094DE /* 3. Longest Substring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "3. Longest Substring.c"; sourceTree = "<group>"; };
+		1F308B5B1F0E4757000094DE /* 3. Longest Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "3. Longest Substring.h"; sourceTree = "<group>"; };
 		1F4748F41F0CDC3400C3FBF9 /* D-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "D-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Add Two Numbers.c"; sourceTree = "<group>"; };
 		1F4748FF1F0CDC6D00C3FBF9 /* Add Two Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Add Two Numbers.h"; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				1F4749021F0CDC6D00C3FBF9 /* Two Sum.h */,
 				1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */,
 				1F4748FF1F0CDC6D00C3FBF9 /* Add Two Numbers.h */,
+				1F308B5A1F0E4757000094DE /* 3. Longest Substring.c */,
+				1F308B5B1F0E4757000094DE /* 3. Longest Substring.h */,
 			);
 			path = "D-algorithm";
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4749051F0CDC6D00C3FBF9 /* Two Sum.c in Sources */,
+				1F308B5C1F0E4757000094DE /* 3. Longest Substring.c in Sources */,
 				1F4749041F0CDC6D00C3FBF9 /* main.c in Sources */,
 				1F4749031F0CDC6D00C3FBF9 /* Add Two Numbers.c in Sources */,
 			);

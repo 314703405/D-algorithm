@@ -19,4 +19,5 @@ void printList(struct ListNode *listNode);
 
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2);
 
+void testTwoNumbers();
 #endif /* Add_Two_Numbers_h */
