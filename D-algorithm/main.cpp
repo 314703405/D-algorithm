@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include "5. Longest Palindromic Substring.h"
 
 int main(int argc, const char * argv[]) {
 
+    std::string s = "sssssssss";
+    
+    std::cout<<longestString().longestPalindrome(s)<<std::endl;
+    
 }
 
 
