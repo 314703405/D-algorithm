@@ -12,6 +12,7 @@
 		1F4749041F0CDC6D00C3FBF9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749001F0CDC6D00C3FBF9 /* main.cpp */; };
 		1F4749051F0CDC6D00C3FBF9 /* Two Sum.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749011F0CDC6D00C3FBF9 /* Two Sum.c */; };
 		1F6AACE51F23451700B3E6FB /* 5. Longest Palindromic Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F6AACE31F23451700B3E6FB /* 5. Longest Palindromic Substring.cpp */; };
+		1FA08CFB1FCE596E00E9EC6C /* 6. ZigZag Conversion.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FA08CF91FCE596E00E9EC6C /* 6. ZigZag Conversion.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +38,8 @@
 		1F4749021F0CDC6D00C3FBF9 /* Two Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Two Sum.h"; sourceTree = "<group>"; };
 		1F6AACE31F23451700B3E6FB /* 5. Longest Palindromic Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5. Longest Palindromic Substring.cpp"; sourceTree = "<group>"; };
 		1F6AACE41F23451700B3E6FB /* 5. Longest Palindromic Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "5. Longest Palindromic Substring.h"; sourceTree = "<group>"; };
-		1F92D9131FB449E3008FA091 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1FA08CF91FCE596E00E9EC6C /* 6. ZigZag Conversion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "6. ZigZag Conversion.c"; sourceTree = "<group>"; };
+		1FA08CFA1FCE596E00E9EC6C /* 6. ZigZag Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "6. ZigZag Conversion.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,8 @@
 				1F308B5B1F0E4757000094DE /* 3. Longest Substring.h */,
 				1F6AACE31F23451700B3E6FB /* 5. Longest Palindromic Substring.cpp */,
 				1F6AACE41F23451700B3E6FB /* 5. Longest Palindromic Substring.h */,
+				1FA08CF91FCE596E00E9EC6C /* 6. ZigZag Conversion.c */,
+				1FA08CFA1FCE596E00E9EC6C /* 6. ZigZag Conversion.h */,
 			);
 			path = "D-algorithm";
 			sourceTree = "<group>";
@@ -87,7 +91,6 @@
 		1F92D9121FB449E3008FA091 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1F92D9131FB449E3008FA091 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				1F4749051F0CDC6D00C3FBF9 /* Two Sum.c in Sources */,
 				1F308B5C1F0E4757000094DE /* 3. Longest Substring.c in Sources */,
+				1FA08CFB1FCE596E00E9EC6C /* 6. ZigZag Conversion.c in Sources */,
 				1F4749041F0CDC6D00C3FBF9 /* main.cpp in Sources */,
 				1F6AACE51F23451700B3E6FB /* 5. Longest Palindromic Substring.cpp in Sources */,
 				1F4749031F0CDC6D00C3FBF9 /* Add Two Numbers.c in Sources */,
