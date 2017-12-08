@@ -10,5 +10,12 @@
 #define ___ZigZag_Conversion_h
 
 #include <stdio.h>
+#include <string>
+#include <iostream>
+
+class zigzagString{
+public:
+    std::string convert(std::string s, int numRows);
+};
 
 #endif /* ZigZag_Conversion_h */

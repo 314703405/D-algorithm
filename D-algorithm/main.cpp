@@ -7,13 +7,17 @@
 //
 
 #include <stdio.h>
-#include "5. Longest Palindromic Substring.h"
+#include "6. ZigZag Conversion.h"
+
 
 int main(int argc, const char * argv[]) {
 
-    int a[3][3] = {1,2,3,4,5,6,7,8,9};
+    std::string s = "PAYPALISHIRING";
     
-    std::cout<<a[1][2]<<std::endl;
+    std::string s1 = zigzagString::zigzagString().convert(s,4);
+    
+    std::cout<<s1<<std::endl;
+    
 }
 
 
