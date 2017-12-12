@@ -7,17 +7,14 @@
 //
 
 #include <stdio.h>
-#include "6. ZigZag Conversion.h"
-
+#include <iostream>
+#include "7. Reverse Integer.hpp"
 
 int main(int argc, const char * argv[]) {
 
-    std::string s = "PAYPALISHIRING";
+    int x = reverseInteger::reverseInteger().reverse(123);
     
-    std::string s1 = zigzagString::zigzagString().convert(s,4);
-    
-    std::cout<<s1<<std::endl;
-    
+    std::cout<<x<<std::endl;
 }
 
 
