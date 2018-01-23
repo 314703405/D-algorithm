@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2623D31FE210FD00659FB9 /* 8  String to Integer (atoi).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2623D11FE210FD00659FB9 /* 8  String to Integer (atoi).cpp */; };
 		1F308B5C1F0E4757000094DE /* 3. Longest Substring.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F308B5A1F0E4757000094DE /* 3. Longest Substring.c */; };
 		1F4749031F0CDC6D00C3FBF9 /* Add Two Numbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F4748FE1F0CDC6D00C3FBF9 /* Add Two Numbers.c */; };
 		1F4749041F0CDC6D00C3FBF9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F4749001F0CDC6D00C3FBF9 /* main.cpp */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F2623D11FE210FD00659FB9 /* 8  String to Integer (atoi).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8  String to Integer (atoi).cpp"; sourceTree = "<group>"; };
+		1F2623D21FE210FD00659FB9 /* 8  String to Integer (atoi).hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "8  String to Integer (atoi).hpp"; sourceTree = "<group>"; };
 		1F308B5A1F0E4757000094DE /* 3. Longest Substring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "3. Longest Substring.c"; sourceTree = "<group>"; };
 		1F308B5B1F0E4757000094DE /* 3. Longest Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "3. Longest Substring.h"; sourceTree = "<group>"; };
 		1F4748F41F0CDC3400C3FBF9 /* D-algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "D-algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +92,8 @@
 				1FA08CFA1FCE596E00E9EC6C /* 6. ZigZag Conversion.h */,
 				1FC3613F1FDBD82300A0341F /* 7. Reverse Integer.cpp */,
 				1FC361401FDBD82300A0341F /* 7. Reverse Integer.hpp */,
+				1F2623D11FE210FD00659FB9 /* 8  String to Integer (atoi).cpp */,
+				1F2623D21FE210FD00659FB9 /* 8  String to Integer (atoi).hpp */,
 			);
 			path = "D-algorithm";
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4749051F0CDC6D00C3FBF9 /* Two Sum.c in Sources */,
+				1F2623D31FE210FD00659FB9 /* 8  String to Integer (atoi).cpp in Sources */,
 				1F308B5C1F0E4757000094DE /* 3. Longest Substring.c in Sources */,
 				1FA08CFB1FCE596E00E9EC6C /* 6. ZigZag Conversion.cpp in Sources */,
 				1F4749041F0CDC6D00C3FBF9 /* main.cpp in Sources */,

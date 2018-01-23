@@ -8,20 +8,9 @@
 
 #include <stdio.h>
 #include <iostream>
-#include "7. Reverse Integer.hpp"
+#include "8  String to Integer (atoi).hpp"
 
 int main(int argc, const char * argv[]) {
 
-    int x = reverseInteger::reverseInteger().reverse(123);
-    
-    std::cout<<x<<std::endl;
+    printf("%d\n",stringToInt().atoi("-2222"));
 }
-
-
-
-
-
-
-
-
-
