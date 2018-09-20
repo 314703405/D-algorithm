@@ -39,7 +39,7 @@ int stringToInt::atoi2(string str)
     
     int indicator = 1;
     
-    for(int i = 0; i<str.size();)
+    for(int i = 0; i < str.size();)
     {
         // 找到第一个不是空格的元素
         i = (int)str.find_first_not_of(' ');

@@ -38,6 +38,7 @@ int reverseInteger::reverse(int x)
         
         temp = result * 10 + x % 10;
         
+        // 防止越界
         if (temp / 10 != result)
         {
             return 0;
